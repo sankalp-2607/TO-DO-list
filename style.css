@@ -25,10 +25,70 @@
     display: flex;
     align-items: center;
     margin-bottom: 20px;
+    
 
 }
 
 .todo-app h2 img{
     /* width: 30px;  */
     margin-left: 10px;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #edeef0;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+
+input{
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+
+}
+
+button{
+    border: none;
+    outline: none;
+    padding: 16px 50px;
+    background: #751b32;
+    color: #fff;
+    font-size: 10 ;
+    cursor: pointer;
+    border-radius: 30px;
+}
+ul li{
+    list-style: none;
+    font-size: 17px;
+    padding: 12px 8px 12px 50px;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+}
+
+ul li::before{
+    content: '';
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    background-image: url(img/uncheck\ p.png);
+    background-size: cover;
+    background-position: center;
+    top: 12px;
+    left: 8px;
+}
+
+ul li.checked{
+    color: #555;
+    text-decoration: line-through;
+}
+ul li.checked::before{
+    background-image: url(img/checked-removebg-preview.png);
 }
