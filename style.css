@@ -12,6 +12,7 @@
     background-image: url(img/avenger\ background.jpeg);
     background-position: center; /*for image*/
     background-size: cover;   /*for image*/
+    /*if i had to remove background , can use a gradient background*/
     /* background: linear-gradient(135deg, #a36412 , #4e085f); */
     padding: 10px;
 }
@@ -19,6 +20,7 @@
 .todo-app{
     width: 100%;
     max-width: 540px;
+    /* background-image: url(img/colorbox.jpg); */
     background: #fff;
     margin: 100px auto 20px;
     padding: 40px;
@@ -27,11 +29,13 @@
 
 }
 .todo-app h2{
-    color:#002765;
+    color:#092a4b;
     display: flex;
     align-items: center;
     margin-bottom: 20px;
-    
+    text-align: center;
+    justify-content: center; /* Horizontally centers the content */
+    align-items: center; /* Vertically centers the content */
 
 }
 
