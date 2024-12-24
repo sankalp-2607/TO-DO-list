@@ -9,9 +9,13 @@
 .container{
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(135deg, #a36412 , #4e085f);
+    background-image: url(img/avenger\ background.jpeg);
+    background-position: center; /*for image*/
+    background-size: cover;   /*for image*/
+    /* background: linear-gradient(135deg, #a36412 , #4e085f); */
     padding: 10px;
 }
+
 .todo-app{
     width: 100%;
     max-width: 540px;
