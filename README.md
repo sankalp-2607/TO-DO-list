@@ -1,1 +1,2 @@
-# This is a To-Do list website that will help u store your pending tasks and important information ,with a cool and user friendly interface by which you can interact easily and make your  
+# To-Do: Simplify Your Workflow
+This To-Do list website helps you effortlessly organize and manage your pending tasks and important information. Featuring a sleek, user-friendly interface, it ensures a smooth and intuitive experience to keep your workflow flawless and efficient. 
