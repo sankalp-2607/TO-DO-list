@@ -118,3 +118,25 @@ ul li span{
 ul li span:hover{
     background: #edeef0;
 }
+
+footer {
+    background-color: #5c2222; 
+    color: #fff; 
+    padding: 20px; 
+    display: flex;
+    justify-content: center;
+  }
+  .footer-container {
+    display: flex;
+    justify-content: space-between; 
+    width: 100%; 
+    max-width: 1200px; 
+  }
+  img {
+    height: 40px; 
+    width: auto;
+    border-color: white;
+  }
+  p {
+    margin: 0;
+  }
